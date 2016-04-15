@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/job_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id='@+id/customer_name'
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="aa"
+        />
+
+    <TextView
+        android:id='@+id/job_date'
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/customer_name"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:text="bb" />
+
+    <TextView
+        android:id="@+id/job_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/customer_name"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:layout_alignParentRight="true"
+        android:text="2.35 km"/>
+
+
+</RelativeLayout>

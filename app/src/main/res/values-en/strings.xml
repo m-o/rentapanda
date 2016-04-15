@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Rent a Panda</string>
+    <string name="duration_hour">hour</string>
+    <string name="duration_hours">hours</string>
+    <string name="currency">EUR</string>
+    <string name="recurrency_once">Once</string>
+    <string name="recurrency_weekly">Weekly</string>
+    <string name="recurrency_byweekly">Every 2 weeks</string>
+    <string name="recurrency_monthly">Monthly</string>
+    <string name="not_available">Not available</string>
+    <string name="distance_unit">Km</string>
+
+    <string name="activity_detail_status">Status</string>
+    <string name="activity_detail_order_time">Order time</string>
+    <string name="activity_detail_date">Date</string>
+    <string name="activity_detail_duration">Duration</string>
+    <string name="activity_detail_recurrence">Recurrence</string>
+    <string name="activity_detail_price">Price</string>
+    <string name="activity_detail_payment_method">Payment Method</string>
+    <string name="activity_detail_extras">Extras</string>
+
+    <string name="network_error">Problem loading data, do you want to try again?</string>
+    <string name="try_again">Try again</string>
+    <string name="cancel">Cancel</string>
+</resources>
