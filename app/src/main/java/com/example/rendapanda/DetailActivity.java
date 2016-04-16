@@ -2,7 +2,6 @@ package com.example.rendapanda;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -10,11 +9,9 @@ import android.widget.TextView;
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 import java.text.DecimalFormat;
@@ -36,6 +33,7 @@ public class DetailActivity extends AppCompatActivity implements OnMapReadyCallb
     @Bind(R.id.customer_name) TextView customerName;
     @Bind(R.id.job_status) TextView jobStatus;
     @Bind(R.id.job_order_time) TextView orderTime;
+    @Bind(R.id.job_order_id) TextView orderId;
     @Bind(R.id.job_date) TextView jobDate;
     @Bind(R.id.job_duration) TextView jobDuration;
     @Bind(R.id.job_recurrence) TextView jobRecurrence;
@@ -113,6 +111,7 @@ public class DetailActivity extends AppCompatActivity implements OnMapReadyCallb
         jobStatus.setText(job.getStatus());
 
         orderTime.setText(job.getOrder_time());
+        orderId.setText(job.getOrder_id());
 
         Date date = job.getJob_date();
         SimpleDateFormat sm = new SimpleDateFormat("dd.MM.yyyy");

@@ -12,6 +12,7 @@
 
     <string name="activity_detail_status">Status</string>
     <string name="activity_detail_order_time">Order time</string>
+    <string name="activity_detail_order_id">Order id</string>
     <string name="activity_detail_date">Date</string>
     <string name="activity_detail_duration">Duration</string>
     <string name="activity_detail_recurrence">Recurrence</string>
